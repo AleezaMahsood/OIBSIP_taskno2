@@ -10,16 +10,15 @@
     <link rel="stylesheet" href="app.css">
 </head>
 <body>
-    
+      
         <div class="topnav" id="myTopnav">
+          <ul>
           <a href="#home" class="active">Home</a>
           <a href="#about">About</a>
           <a href="#services">Services</a>
           <a href="#projects">Project</a>
           <a href="#contact">Contact</a>
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-          </a>
+          </ul>
         </div>
     <main>
     <section id="home">
@@ -52,7 +51,7 @@
         <div class="aboutme">
             <h2>About <span>Me</span></h2>
             <h3>Hi, I'm Here to Help Your Next Project</h3>
-            <p>Welcome to my digital space! I'm [Your Name],<br> a passionate [Your Profession] with a love for transforming ideas <br>into immersive digital experiences. As a [Your Role], <br>I thrive on the intersection of creativity and technology. <br>With a keen eye for detail and a knack for problem-solving, <br>I am dedicated to crafting seamless and visually appealing solutions. <br>Join me on this journey as we explore the endless possibilities of the <br>digital realm together</p>
+            <p>Welcome to my digital space! I'm Aliza,<br> a passionate Developer with a love for transforming ideas <br>into immersive digital experiences. As a [Your Role], <br>I thrive on the intersection of creativity and technology. <br>With a keen eye for detail and a knack for problem-solving, <br>I am dedicated to crafting seamless and visually appealing solutions. <br>Join me on this journey as we explore the endless possibilities of the <br>digital realm together</p>
            <div class="btn1">
             <button>Read More</button>
         </div>
@@ -141,37 +140,26 @@
         </div>
     </section>
     <section id="contact">
-        <div class="container mt-3 contactContent">
-            <div class="heading">
-          <h2>Make a Request</h2>
-        </div>
-          <div class="row mt-4">
-            <div>
-              <form class="contact-form">
-                <input type="text" class="input-field" placeholder="Name">
-                <input type="email" class="input-field" placeholder="Email">
-                <input type="text" class="input-field" placeholder="Subject">
-                <div class="textarea-field">
-                  <textarea class="input-field" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
-                </div>
-                <button type="button" class="submit-button">Contact Me</button>
-              </form>
-            </div>
+      <div class="container mt-3 contactContent">
+          <div class="heading">
+        <h2>Make a Request</h2>
+      </div>
+        <div class="row mt-4">
+          <div>
+            <form class="contact-form">
+              <input type="text" class="input-field" placeholder="Name">
+              <input type="email" class="input-field" placeholder="Email">
+              <input type="text" class="input-field" placeholder="Subject">
+              <div class="textarea-field">
+                <textarea class="input-field" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+              </div>
+              <button type="button" class="submit-button">Contact Me</button>
+            </form>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
     </main>
-    <script>
-      function myFunction() {
- var x = document.getElementById("myTopnav");
- if (x.className === "topnav") {
-    x.className += " responsive";
- } else {
-    x.className = "topnav";
- }
-}
-
-  </script>
   
   </body>
 </html>
